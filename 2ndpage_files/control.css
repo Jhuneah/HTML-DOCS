@@ -1,0 +1,6 @@
+p{color:magenta;font-type:italic;font-weight:bold}
+a{background-color:orange}
+a:hover{background-color:cyan:text-decorator:underline;}
+a:active{background-color:gold}
+a:visited{background-color:bronze}
+body{background-color:silver;font-family:Tahoma}

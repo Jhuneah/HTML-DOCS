@@ -1,0 +1,23 @@
+form:hover{background-color:cyan}
+h1{color:brown;text-align:center}
+img{width:200px}   
+@div{background-color:cyan;font-weight:bold;width:100px;padding:20px;margin:20px}
+table{border:3px solid black;padding:5px}
+td,th{border:1px solid black}
+body{background-color:orange;font-family:algerian}
+#SELECT:hover{color:magenta}
+.Drop:hover{background-color:blue}
+ul li:hover{background-color:yellow}
+.Drop:active{background-color:green}
+a[href="https:/google.com"]{color:red}
+button:hover{background-color:brown}
+button:active{background-color:green}
+input[type="submit"]:active{background-color:green}
+@media (min-width: 600px){body{background-color:magenta}}
+@media (max-width:600px){body{background-color:bronze}}
+#container{display:flex;flex-wrap:wrap;}
+#container>div{padding:20px;margin:20px;font-size:20px ;width:200px;background-color:pink}
+ul{font-size:14px;color:springgreen}
+ol{font-size:18px;color:gold}
+%message{background-color:indigo}
+.try{%message; color:brown;@extend }
